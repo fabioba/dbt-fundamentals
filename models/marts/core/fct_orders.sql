@@ -1,0 +1,15 @@
+with orders as (
+    select *
+    from {{ref('stg_orders')}}
+),
+payments as (
+    select *
+    from {{ref('stg_payments')}}
+)
+
+select o.order_id,
+o.customer_id,
+p.amount
+from orders as o
+join payments as p on
+o.order_id=p.order_id
