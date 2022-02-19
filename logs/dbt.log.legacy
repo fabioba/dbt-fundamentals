@@ -5444,3 +5444,277 @@ Object 'RAW.STRIPE.PAYMENTS' does not exist or not authorized.
 2022-02-19 14:58:54.219052 (Thread-663): handling status request
 2022-02-19 14:58:54.219446 (Thread-663): 14:58:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41282020a0>]}
 2022-02-19 14:58:54.219917 (Thread-663): sending response (<Response 1582 bytes [200 OK]>) to 10.0.34.59
+2022-02-19 14:58:56.775502 (Thread-664): 14:58:56  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-19 14:58:56.775741 (Thread-664): 14:58:56  Partial parsing enabled, no changes found, skipping parsing
+2022-02-19 14:58:56.781077 (Thread-664): 14:58:56  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41283ad9a0>]}
+2022-02-19 14:58:57.408139 (Thread-665): handling status request
+2022-02-19 14:58:57.408554 (Thread-665): 14:58:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4128188700>]}
+2022-02-19 14:58:57.409065 (Thread-665): sending response (<Response 1244 bytes [200 OK]>) to 10.0.43.66
+2022-02-19 14:58:57.459950 (Thread-666): handling status request
+2022-02-19 14:58:57.460361 (Thread-666): 14:58:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4128188970>]}
+2022-02-19 14:58:57.460837 (Thread-666): sending response (<Response 1244 bytes [200 OK]>) to 10.0.19.0
+2022-02-19 15:15:08.984537 (Thread-667): 15:15:08  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-02-19 15:15:08.986432 (Thread-667): 15:15:08  Partial parsing: added file: jafflpe_shop://models/staging/jaffle_shop/stg_jaffle_shop.yml
+2022-02-19 15:15:09.035984 (Thread-667): 15:15:09  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412871e640>]}
+2022-02-19 15:15:09.642895 (Thread-668): handling status request
+2022-02-19 15:15:09.643295 (Thread-668): 15:15:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4128409d90>]}
+2022-02-19 15:15:09.643835 (Thread-668): sending response (<Response 1275 bytes [200 OK]>) to 10.0.22.63
+2022-02-19 15:15:09.739864 (Thread-669): handling status request
+2022-02-19 15:15:09.740249 (Thread-669): 15:15:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41284cbd00>]}
+2022-02-19 15:15:09.740732 (Thread-669): sending response (<Response 1275 bytes [200 OK]>) to 10.0.10.118
+2022-02-19 15:15:19.245899 (Thread-670): 15:15:19  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-02-19 15:15:19.246322 (Thread-670): 15:15:19  Partial parsing: update schema file: jafflpe_shop://models/staging/jaffle_shop/stg_jaffle_shop.yml
+2022-02-19 15:15:19.330470 (Thread-670): 15:15:19  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4148243d90>]}
+2022-02-19 15:15:19.745635 (Thread-671): handling status request
+2022-02-19 15:15:19.746060 (Thread-671): 15:15:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41487ae700>]}
+2022-02-19 15:15:19.746553 (Thread-671): sending response (<Response 1283 bytes [200 OK]>) to 10.0.12.68
+2022-02-19 15:15:19.842317 (Thread-672): handling status request
+2022-02-19 15:15:19.842702 (Thread-672): 15:15:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412846c4c0>]}
+2022-02-19 15:15:19.843176 (Thread-672): sending response (<Response 1283 bytes [200 OK]>) to 10.0.34.59
+2022-02-19 15:21:06.365612 (Thread-673): 15:21:06  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-02-19 15:21:06.368317 (Thread-673): 15:21:06  Partial parsing: deleted source source.jafflpe_shop.jaffle_shop.customers
+2022-02-19 15:21:06.368604 (Thread-673): 15:21:06  Partial parsing: deleted source source.jafflpe_shop.jaffle_shop.orders
+2022-02-19 15:21:06.368736 (Thread-673): 15:21:06  Partial parsing: update schema file: jafflpe_shop://models/staging/jaffle_shop/src_jaffle_shop.yml
+2022-02-19 15:21:06.372961 (Thread-673): 15:21:06  1699: static parser successfully parsed marts/core/dim_customers.sql
+2022-02-19 15:21:06.375287 (Thread-673): 15:21:06  1699: static parser successfully parsed staging/jaffle_shop/stg_customers.sql
+2022-02-19 15:21:06.377548 (Thread-673): 15:21:06  1699: static parser successfully parsed marts/core/fct_orders.sql
+2022-02-19 15:21:06.379671 (Thread-673): 15:21:06  1699: static parser successfully parsed staging/jaffle_shop/stg_orders.sql
+2022-02-19 15:21:06.467041 (Thread-673): 15:21:06  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412814ef70>]}
+2022-02-19 15:21:06.857966 (Thread-674): handling status request
+2022-02-19 15:21:06.858367 (Thread-674): 15:21:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41287b34f0>]}
+2022-02-19 15:21:06.858917 (Thread-674): sending response (<Response 3162 bytes [200 OK]>) to 10.0.10.60
+2022-02-19 15:21:06.891966 (Thread-675): handling status request
+2022-02-19 15:21:06.892318 (Thread-675): 15:21:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41287b3c40>]}
+2022-02-19 15:21:06.915399 (Thread-675): sending response (<Response 3162 bytes [200 OK]>) to 10.0.10.60
+2022-02-19 15:21:26.523350 (Thread-676): 15:21:26  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-19 15:21:26.523566 (Thread-676): 15:21:26  Partial parsing enabled, no changes found, skipping parsing
+2022-02-19 15:21:26.529107 (Thread-676): 15:21:26  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41286f3eb0>]}
+2022-02-19 15:21:27.028919 (Thread-677): handling status request
+2022-02-19 15:21:27.029335 (Thread-677): 15:21:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412864f490>]}
+2022-02-19 15:21:27.029858 (Thread-677): sending response (<Response 1244 bytes [200 OK]>) to 10.0.44.46
+2022-02-19 15:21:27.089365 (Thread-678): handling status request
+2022-02-19 15:21:27.089777 (Thread-678): 15:21:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412864f190>]}
+2022-02-19 15:21:27.090265 (Thread-678): sending response (<Response 1244 bytes [200 OK]>) to 10.0.10.118
+2022-02-19 15:22:16.434191 (Thread-679): 15:22:16  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-02-19 15:22:16.434587 (Thread-679): 15:22:16  Partial parsing: added file: jafflpe_shop://tests/assert_positive_value_for_total_amount.sql
+2022-02-19 15:22:16.493061 (Thread-679): 15:22:16  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412871dfa0>]}
+2022-02-19 15:22:17.155470 (Thread-680): handling status request
+2022-02-19 15:22:17.155865 (Thread-680): 15:22:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f414815df40>]}
+2022-02-19 15:22:17.156353 (Thread-680): sending response (<Response 1277 bytes [200 OK]>) to 10.0.6.248
+2022-02-19 15:22:17.222754 (Thread-681): handling status request
+2022-02-19 15:22:17.223142 (Thread-681): 15:22:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f414815daf0>]}
+2022-02-19 15:22:17.223611 (Thread-681): sending response (<Response 1277 bytes [200 OK]>) to 10.0.36.42
+2022-02-19 15:22:24.482083 (Thread-682): 15:22:24  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-02-19 15:22:24.482501 (Thread-682): 15:22:24  Partial parsing: updated file: jafflpe_shop://tests/assert_positive_value_for_total_amount.sql
+2022-02-19 15:22:24.536234 (Thread-682): 15:22:24  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41282c9f70>]}
+2022-02-19 15:22:24.977080 (Thread-683): handling status request
+2022-02-19 15:22:24.977476 (Thread-683): 15:22:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4128622280>]}
+2022-02-19 15:22:24.977987 (Thread-683): sending response (<Response 1279 bytes [200 OK]>) to 10.0.30.15
+2022-02-19 15:22:25.009954 (Thread-684): handling status request
+2022-02-19 15:22:25.010338 (Thread-684): 15:22:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4128622040>]}
+2022-02-19 15:22:25.010791 (Thread-684): sending response (<Response 1279 bytes [200 OK]>) to 10.0.36.42
+2022-02-19 15:23:26.326764 (Thread-685): handling status request
+2022-02-19 15:23:26.329297 (Thread-685): 15:23:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412862f310>]}
+2022-02-19 15:23:26.329798 (Thread-685): sending response (<Response 1279 bytes [200 OK]>) to 10.0.7.232
+2022-02-19 15:23:26.779774 (Thread-686): handling status request
+2022-02-19 15:23:26.780178 (Thread-686): 15:23:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412862f580>]}
+2022-02-19 15:23:26.780648 (Thread-686): sending response (<Response 1279 bytes [200 OK]>) to 10.0.10.60
+2022-02-19 15:23:26.878402 (Thread-687): handling cli_args request
+2022-02-19 15:23:26.878777 (Thread-687): 15:23:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412862f880>]}
+2022-02-19 15:23:29.049317 (Thread-687): sending response (<Response 138 bytes [200 OK]>) to 10.0.7.232
+2022-02-19 15:23:29.193461 (MainThread): 15:23:29  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-19 15:23:29.193934 (MainThread): 15:23:29  Partial parsing enabled, no changes found, skipping parsing
+2022-02-19 15:23:29.199708 (MainThread): 15:23:29  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1faf301d-d030-4acf-845f-085d75d030c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff7742f1fa0>]}
+2022-02-19 15:23:29.226931 (MainThread): 15:23:29  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1faf301d-d030-4acf-845f-085d75d030c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff77435fd90>]}
+2022-02-19 15:23:29.227199 (MainThread): 15:23:29  Found 5 models, 10 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-19 15:23:29.228532 (MainThread): 15:23:29  
+2022-02-19 15:23:29.228826 (MainThread): 15:23:29  Acquiring new snowflake connection "master"
+2022-02-19 15:23:29.229862 (ThreadPoolExecutor-1_0): 15:23:29  Acquiring new snowflake connection "list_ANALYTICS_dbt_fbarbazza"
+2022-02-19 15:23:29.241980 (ThreadPoolExecutor-1_0): 15:23:29  Using snowflake connection "list_ANALYTICS_dbt_fbarbazza"
+2022-02-19 15:23:29.242090 (ThreadPoolExecutor-1_0): 15:23:29  On list_ANALYTICS_dbt_fbarbazza: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_ANALYTICS_dbt_fbarbazza"} */
+
+    show terse objects in ANALYTICS.dbt_fbarbazza
+2022-02-19 15:23:29.242173 (ThreadPoolExecutor-1_0): 15:23:29  Opening a new connection, currently in state init
+2022-02-19 15:23:29.646605 (Thread-688): handling poll request
+2022-02-19 15:23:29.647074 (Thread-688): 15:23:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412862f670>]}
+2022-02-19 15:23:29.647977 (Thread-688): sending response (<Response 4214 bytes [200 OK]>) to 10.0.31.140
+2022-02-19 15:23:30.267605 (ThreadPoolExecutor-1_0): 15:23:30  SQL status: SUCCESS 7 in 1.03 seconds
+2022-02-19 15:23:30.269876 (ThreadPoolExecutor-1_0): 15:23:30  On list_ANALYTICS_dbt_fbarbazza: Close
+2022-02-19 15:23:30.518188 (MainThread): 15:23:30  Concurrency: 4 threads (target='default')
+2022-02-19 15:23:30.518385 (MainThread): 15:23:30  
+2022-02-19 15:23:30.521447 (Thread-1): 15:23:30  Began running node test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f
+2022-02-19 15:23:30.521664 (Thread-1): 15:23:30  1 of 4 START test source_not_null_jaffle_shop_customers_id...................... [RUN]
+2022-02-19 15:23:30.521982 (Thread-1): 15:23:30  Acquiring new snowflake connection "test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f"
+2022-02-19 15:23:30.522089 (Thread-1): 15:23:30  Began compiling node test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f
+2022-02-19 15:23:30.522215 (Thread-1): 15:23:30  Compiling test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f
+2022-02-19 15:23:30.531646 (Thread-2): 15:23:30  Began running node test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13
+2022-02-19 15:23:30.531840 (Thread-2): 15:23:30  2 of 4 START test source_not_null_jaffle_shop_orders_id......................... [RUN]
+2022-02-19 15:23:30.532130 (Thread-2): 15:23:30  Acquiring new snowflake connection "test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13"
+2022-02-19 15:23:30.532221 (Thread-2): 15:23:30  Began compiling node test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13
+2022-02-19 15:23:30.532309 (Thread-2): 15:23:30  Compiling test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13
+2022-02-19 15:23:30.536681 (Thread-3): 15:23:30  Began running node test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e
+2022-02-19 15:23:30.536898 (Thread-3): 15:23:30  3 of 4 START test source_unique_jaffle_shop_customers_id........................ [RUN]
+2022-02-19 15:23:30.537169 (Thread-3): 15:23:30  Acquiring new snowflake connection "test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e"
+2022-02-19 15:23:30.537264 (Thread-3): 15:23:30  Began compiling node test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e
+2022-02-19 15:23:30.537348 (Thread-3): 15:23:30  Compiling test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e
+2022-02-19 15:23:30.542694 (Thread-1): 15:23:30  Writing injected SQL for node "test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f"
+2022-02-19 15:23:30.536485 (Thread-2): 15:23:30  Writing injected SQL for node "test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13"
+2022-02-19 15:23:30.544333 (Thread-3): 15:23:30  Writing injected SQL for node "test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e"
+2022-02-19 15:23:30.546075 (Thread-4): 15:23:30  Began running node test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba
+2022-02-19 15:23:30.546247 (Thread-4): 15:23:30  4 of 4 START test source_unique_jaffle_shop_orders_id........................... [RUN]
+2022-02-19 15:23:30.546518 (Thread-4): 15:23:30  Acquiring new snowflake connection "test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba"
+2022-02-19 15:23:30.546607 (Thread-4): 15:23:30  Began compiling node test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba
+2022-02-19 15:23:30.546690 (Thread-4): 15:23:30  Compiling test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba
+2022-02-19 15:23:30.550032 (Thread-4): 15:23:30  Writing injected SQL for node "test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba"
+2022-02-19 15:23:30.573469 (Thread-2): 15:23:30  finished collecting timing info
+2022-02-19 15:23:30.573672 (Thread-2): 15:23:30  Began executing node test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13
+2022-02-19 15:23:30.584120 (Thread-3): 15:23:30  finished collecting timing info
+2022-02-19 15:23:30.584290 (Thread-3): 15:23:30  Began executing node test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e
+2022-02-19 15:23:30.592469 (Thread-2): 15:23:30  Writing runtime SQL for node "test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13"
+2022-02-19 15:23:30.592877 (Thread-4): 15:23:30  finished collecting timing info
+2022-02-19 15:23:30.593023 (Thread-4): 15:23:30  Began executing node test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba
+2022-02-19 15:23:30.594533 (Thread-4): 15:23:30  Writing runtime SQL for node "test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba"
+2022-02-19 15:23:30.594860 (Thread-3): 15:23:30  Writing runtime SQL for node "test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e"
+2022-02-19 15:23:30.600774 (Thread-1): 15:23:30  finished collecting timing info
+2022-02-19 15:23:30.600930 (Thread-1): 15:23:30  Began executing node test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f
+2022-02-19 15:23:30.603655 (Thread-1): 15:23:30  Writing runtime SQL for node "test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f"
+2022-02-19 15:23:30.623427 (Thread-2): 15:23:30  Using snowflake connection "test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13"
+2022-02-19 15:23:30.623564 (Thread-2): 15:23:30  On test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from raw.jaffle_shop.orders
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+2022-02-19 15:23:30.623665 (Thread-2): 15:23:30  Opening a new connection, currently in state init
+2022-02-19 15:23:30.628323 (Thread-4): 15:23:30  Using snowflake connection "test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba"
+2022-02-19 15:23:30.628451 (Thread-4): 15:23:30  On test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from raw.jaffle_shop.orders
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-02-19 15:23:30.628537 (Thread-4): 15:23:30  Opening a new connection, currently in state init
+2022-02-19 15:23:30.633334 (Thread-1): 15:23:30  Using snowflake connection "test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f"
+2022-02-19 15:23:30.633467 (Thread-1): 15:23:30  On test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from raw.jaffle_shop.customers
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+2022-02-19 15:23:30.633559 (Thread-1): 15:23:30  Opening a new connection, currently in state closed
+2022-02-19 15:23:30.637394 (Thread-3): 15:23:30  Using snowflake connection "test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e"
+2022-02-19 15:23:30.637525 (Thread-3): 15:23:30  On test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    id as unique_field,
+    count(*) as n_records
+
+from raw.jaffle_shop.customers
+where id is not null
+group by id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-02-19 15:23:30.637611 (Thread-3): 15:23:30  Opening a new connection, currently in state init
+2022-02-19 15:23:31.012115 (Thread-689): handling poll request
+2022-02-19 15:23:31.012521 (Thread-689): 15:23:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4128180a60>]}
+2022-02-19 15:23:31.013763 (Thread-689): sending response (<Response 25241 bytes [200 OK]>) to 10.0.26.218
+2022-02-19 15:23:32.094842 (Thread-2): 15:23:32  SQL status: SUCCESS 1 in 1.47 seconds
+2022-02-19 15:23:32.097388 (Thread-2): 15:23:32  finished collecting timing info
+2022-02-19 15:23:32.097560 (Thread-2): 15:23:32  On test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13: Close
+2022-02-19 15:23:32.239167 (Thread-1): 15:23:32  SQL status: SUCCESS 1 in 1.61 seconds
+2022-02-19 15:23:32.240769 (Thread-1): 15:23:32  finished collecting timing info
+2022-02-19 15:23:32.240930 (Thread-1): 15:23:32  On test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f: Close
+2022-02-19 15:23:32.328741 (Thread-2): 15:23:32  2 of 4 PASS source_not_null_jaffle_shop_orders_id............................... [PASS in 1.80s]
+2022-02-19 15:23:32.328941 (Thread-2): 15:23:32  Finished running node test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13
+2022-02-19 15:23:32.349664 (Thread-4): 15:23:32  SQL status: SUCCESS 1 in 1.72 seconds
+2022-02-19 15:23:32.351212 (Thread-4): 15:23:32  finished collecting timing info
+2022-02-19 15:23:32.351365 (Thread-4): 15:23:32  On test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba: Close
+2022-02-19 15:23:32.354747 (Thread-3): 15:23:32  SQL status: SUCCESS 1 in 1.72 seconds
+2022-02-19 15:23:32.356060 (Thread-3): 15:23:32  finished collecting timing info
+2022-02-19 15:23:32.356197 (Thread-3): 15:23:32  On test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e: Close
+2022-02-19 15:23:32.469503 (Thread-1): 15:23:32  1 of 4 PASS source_not_null_jaffle_shop_customers_id............................ [PASS in 1.95s]
+2022-02-19 15:23:32.469731 (Thread-1): 15:23:32  Finished running node test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f
+2022-02-19 15:23:32.586128 (Thread-3): 15:23:32  3 of 4 PASS source_unique_jaffle_shop_customers_id.............................. [PASS in 2.05s]
+2022-02-19 15:23:32.586307 (Thread-3): 15:23:32  Finished running node test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e
+2022-02-19 15:23:32.586977 (Thread-4): 15:23:32  4 of 4 PASS source_unique_jaffle_shop_orders_id................................. [PASS in 2.04s]
+2022-02-19 15:23:32.587110 (Thread-4): 15:23:32  Finished running node test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba
+2022-02-19 15:23:32.588668 (MainThread): 15:23:32  Acquiring new snowflake connection "master"
+2022-02-19 15:23:32.588986 (MainThread): 15:23:32  
+2022-02-19 15:23:32.589093 (MainThread): 15:23:32  Finished running 4 tests in 3.36s.
+2022-02-19 15:23:32.589180 (MainThread): 15:23:32  Connection 'master' was properly closed.
+2022-02-19 15:23:32.589249 (MainThread): 15:23:32  Connection 'test.jafflpe_shop.source_not_null_jaffle_shop_customers_id.50aa22178f' was properly closed.
+2022-02-19 15:23:32.589312 (MainThread): 15:23:32  Connection 'test.jafflpe_shop.source_not_null_jaffle_shop_orders_id.f924998b13' was properly closed.
+2022-02-19 15:23:32.589373 (MainThread): 15:23:32  Connection 'test.jafflpe_shop.source_unique_jaffle_shop_customers_id.2777a7933e' was properly closed.
+2022-02-19 15:23:32.589435 (MainThread): 15:23:32  Connection 'test.jafflpe_shop.source_unique_jaffle_shop_orders_id.8a425b2fba' was properly closed.
+2022-02-19 15:23:32.655779 (MainThread): 15:23:32  
+2022-02-19 15:23:32.656024 (MainThread): 15:23:32  Completed successfully
+2022-02-19 15:23:32.656129 (MainThread): 15:23:32  
+2022-02-19 15:23:32.656226 (MainThread): 15:23:32  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+2022-02-19 15:23:32.658464 (Thread-690): handling poll request
+2022-02-19 15:23:32.658750 (Thread-690): 15:23:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412841bfa0>]}
+2022-02-19 15:23:32.659795 (Thread-690): sending response (<Response 13226 bytes [200 OK]>) to 10.0.12.68
+2022-02-19 15:23:34.016198 (Thread-691): handling poll request
+2022-02-19 15:23:34.016592 (Thread-691): 15:23:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41282c9dc0>]}
+2022-02-19 15:23:34.017726 (Thread-691): sending response (<Response 10656 bytes [200 OK]>) to 10.0.34.59
+2022-02-19 15:23:34.680946 (Thread-692): handling status request
+2022-02-19 15:23:34.681360 (Thread-692): 15:23:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41282c9cd0>]}
+2022-02-19 15:23:34.681913 (Thread-692): sending response (<Response 1279 bytes [200 OK]>) to 10.0.26.218
+2022-02-19 15:23:34.718421 (Thread-693): handling status request
+2022-02-19 15:23:34.718745 (Thread-693): 15:23:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f412862f580>]}
+2022-02-19 15:23:34.719181 (Thread-693): sending response (<Response 1279 bytes [200 OK]>) to 10.0.8.111
+2022-02-19 15:24:56.685370 (Thread-694): handling status request
+2022-02-19 15:24:56.687570 (Thread-694): 15:24:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127a2543-f9df-4a18-aa73-98e7f4f57587', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f41986a4700>]}
+2022-02-19 15:24:56.688050 (Thread-694): sending response (<Response 1279 bytes [200 OK]>) to 10.0.10.60
